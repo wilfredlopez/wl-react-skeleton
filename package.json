@@ -1,6 +1,6 @@
 {
   "name": "wl-react-skeleton",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React Customizable Skeleton Element",
   "main": "lib/index.js",
   "module": "esm/index.js",

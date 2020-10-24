@@ -74,7 +74,11 @@ export const SkeletonElement = ({type, maxWidth, size, theme, borderRadious, ani
         styles.borderRadius = borderRadious
     }
 
-    const shouldAnimate = animated || contextTheme.animated
+    let shouldAnimate = contextTheme.animated
+
+    if(typeof animated !== 'undefined'){
+        shouldAnimate = animated
+    }
 
 
     return (
