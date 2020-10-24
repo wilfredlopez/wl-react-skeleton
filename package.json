@@ -1,6 +1,6 @@
 {
   "name": "wl-react-skeleton",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "React Customizable Skeleton Element",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -34,12 +34,12 @@
   "license": "Unlicense",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wilfredlopez/react-use-light"
+    "url": "https://github.com/wilfredlopez/wl-react-skeleton"
   },
   "bugs": {
-    "url": "https://github.com/wilfredlopez/react-use-light/issues"
+    "url": "https://github.com/wilfredlopez/wl-react-skeleton/issues"
   },
-  "homepage": "https://github.com/wilfredlopez/react-use-light#readme",
+  "homepage": "https://github.com/wilfredlopez/wl-react-skeleton#readme",
   "dependencies": {},
   "peerDependencies": {
     "react": "^16.8.0"
