@@ -1,6 +1,6 @@
 {
   "name": "wl-react-skeleton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Customizable Skeleton Element",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -40,7 +40,11 @@
     "url": "https://github.com/wilfredlopez/wl-react-skeleton/issues"
   },
   "homepage": "https://github.com/wilfredlopez/wl-react-skeleton#readme",
-  "keywords": ["Skeleton", "react", "Component"],
+  "keywords": [
+    "Skeleton",
+    "react",
+    "Component"
+  ],
   "dependencies": {},
   "peerDependencies": {
     "react": "^16.8.0"
@@ -71,6 +75,7 @@
     "eslint-plugin-react-hooks": "4.1.0",
     "fork-ts-checker-webpack-plugin": "5.0.14",
     "husky": "4.2.5",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "26.4.0",
     "jest-localstorage-mock": "^2.4.3",
     "lint-staged": "10.2.11",
@@ -115,6 +120,9 @@
     "testMatch": [
       "<rootDir>/tests/**/*.test.(ts|tsx)"
     ],
+    "moduleNameMapper": {
+      "\\.(css|sass)$": "identity-obj-proxy"
+    },
     "setupFiles": [
       "<rootDir>/tests/setupTests.ts"
     ]

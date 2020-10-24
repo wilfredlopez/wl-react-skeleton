@@ -12,7 +12,7 @@ it('should render with correct classes', () => {
   const element = result.asFragment()
   const div = element.querySelector('div')!
   // expect(console.error).toHaveBeenCalledTimes(1);
-  expect(div.className).toBe('skeleton text');
+  expect(div.className).toBe('skeleton text light');
 
 
 });
